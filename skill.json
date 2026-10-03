@@ -126,6 +126,49 @@
           "consumes": ["nps_vs_competitors", "retention_rate"]
         }
       ]
+    },
+    {
+      "id": "law4",
+      "name": "Organisational capability / execution",
+      "name_status": "placeholder",
+      "closing_synthesis": {
+        "source": "laws/law4/law4_fact12_process_mapping.md",
+        "section": "Law 4 synthesis prompt"
+      },
+      "final_synthesis": {
+        "source": "laws/law4/law4_fact12_process_mapping.md",
+        "section": "Full POD synthesis prompt — all four laws"
+      },
+      "facts": [
+        {
+          "id": "fact10",
+          "n": 10,
+          "title": "Innovation Fulcrum (Model T) Analysis",
+          "file": "laws/law4/law4_fact10_innovation_fulcrum.md",
+          "diagnostic_question": "How complex are your offerings, what is that costing you, and where is your innovation fulcrum?",
+          "produces": ["innovation_fulcrum", "complexity_cost", "killer_abcs"],
+          "consumes": ["per_product_profitability"]
+        },
+        {
+          "id": "fact11",
+          "n": 11,
+          "title": "Decision-Making and Organisational Complexity Analysis",
+          "file": "laws/law4/law4_fact11_decision_making_org.md",
+          "diagnostic_question": "How complex are your decision-making and organisational structure relative to competitors, and what is the impact?",
+          "parts": ["11.1 RAPID Analysis", "11.2 Spans-and-Layers Analysis"],
+          "produces": ["decision_rights_clarity", "spans_and_layers_gaps"],
+          "consumes": ["innovation_fulcrum"]
+        },
+        {
+          "id": "fact12",
+          "n": 12,
+          "title": "Process Mapping",
+          "file": "laws/law4/law4_fact12_process_mapping.md",
+          "diagnostic_question": "Where does complexity reside in your processes, and what is that costing you?",
+          "produces": ["process_bottlenecks", "root_causes", "redesign_priorities"],
+          "consumes": ["decision_rights_clarity"]
+        }
+      ]
     }
   ]
 }

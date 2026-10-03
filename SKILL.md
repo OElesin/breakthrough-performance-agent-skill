@@ -42,13 +42,20 @@ Law 3 — Customer
   Fact 8  Customer Retention & NPS   (two parts: 8.1 then 8.2)
   Fact 9  Profit-Pool Analysis
   └─ CHECKPOINT: Law 3 closing synthesis
+
+Law 4 — Organisational capability / execution
+  Fact 10  Innovation Fulcrum (Model T)
+  Fact 11  Decision-Making & Org Complexity   (two parts: 11.1 RAPID then 11.2 Spans-and-Layers)
+  Fact 12  Process Mapping
+  └─ CHECKPOINT: Law 4 closing synthesis
+  └─ FINAL: Full POD synthesis across all four laws
 ```
 
 ### Two-part facts
-Facts 7 and 8 each have an internal sequence. Complete Part 1, confirm its finding, then run the Part-2 transition prompt (already written in each file) before starting Part 2. Do not treat the fact as complete until both parts are done.
+Facts 7, 8, and 11 each have an internal sequence. Complete Part 1, confirm its finding, then run the Part-2 transition prompt (already written in each file) before starting Part 2. Do not treat the fact as complete until both parts are done.
 
 ### Entry points
-The default session runs the full arc, Fact 1 → Fact 8. A single law may be run standalone if the user only wants that lens — but if they do, state the dependency you're skipping (e.g. running Law 2 alone means ROA/RMS won't be grounded in the Law 1 cost picture) so the user understands the limitation.
+The default session runs the full arc, Fact 1 → Fact 12. A single law may be run standalone if the user only wants that lens — but if they do, state the dependency you're skipping (e.g. running Law 2 alone means ROA/RMS won't be grounded in the Law 1 cost picture) so the user understands the limitation.
 
 ---
 
@@ -67,6 +74,9 @@ Maintain a running findings record for the session. After each fact, capture its
 | 7 Segments & SNAP | Target segments; purchasing criteria; win/lose vs. competitors | Fact 4 (position), Fact 6 (capability fit) |
 | 8 Retention & NPS | Retention rate; defection causes; NPS vs. competitors | Fact 7 target segments |
 | 9 Profit-Pool | Where profit concentrates; durability | Fact 8 loyalty data |
+| 10 Innovation Fulcrum | Optimal complexity level; complexity cost; Killer ABCs | Fact 3 product profitability |
+| 11 Decision-Making & Org | Decision-rights clarity; spans/layers gaps | Fact 10 complexity level |
+| 12 Process Mapping | Process bottlenecks; root causes; redesign priorities | Fact 11 decision rights |
 
 When a later fact's synthesis contradicts an earlier finding, surface the tension explicitly rather than silently overwriting — reconciling those contradictions is often the most valuable output of the whole diagnostic.
 
@@ -79,6 +89,7 @@ At the end of each law, run the law-closing synthesis prompt verbatim from the f
 - **End of Law 1** — prompt in `laws/law1/law1_fact3_product_line_profitability.md` ("Law 1 closing synthesis prompt").
 - **End of Law 2** — prompt in `laws/law2/law2_fact6_capabilities_analysis.md` ("Law 2 closing synthesis prompt").
 - **End of Law 3** — prompt in `laws/law3/law3_fact9_profit_pool_analysis.md` ("Law 3 closing synthesis prompt").
+- **End of Law 4** — prompt in `laws/law4/law4_fact12_process_mapping.md` ("Law 4 synthesis prompt").
 
 Each headline finding is carried into the next law's opening so the arc stays connected.
 
@@ -86,12 +97,13 @@ Each headline finding is carried into the next law's opening so the arc stays co
 
 ## Final synthesis
 
-After the last checkpoint, produce a one-page POD summary that ties the three lenses together:
+After the Law 4 checkpoint, run the full POD synthesis prompt verbatim from `laws/law4/law4_fact12_process_mapping.md` ("Full POD synthesis prompt — all four laws"), then produce a one-page POD summary that ties the four lenses together:
 
 - **Cost position** (Law 1): where you stand on cost and profitability.
 - **Market position** (Law 2): whether you're earning what your position warrants and where the market is moving.
-- **Customer** (Law 3): which customers are worth winning and whether you can keep them.
-- **The through-line**: the single most important strategic implication that emerges when the three are read together.
+- **Customer** (Law 3): which customers are worth winning, whether you can keep them, and where industry profit concentrates.
+- **Organisational capability** (Law 4): whether your complexity, decision rights, and processes let you execute.
+- **The through-line**: the single most important strategic implication that emerges when all four are read together.
 
 End with the explicit open items (any facts answered on estimates rather than data).
 

@@ -2,7 +2,7 @@
 
 A structured knowledge base for an AI agent that guides users through a point-of-departure (POD) business diagnostic, based on the framework in *The Breakthrough Imperative* by Mark Gottfredson and Steve Schaubert.
 
-The skill walks a user through a sequence of **facts** — self-contained diagnostic analyses — organized under three **laws**. Each fact combines an analytical methodology (what to construct, what data is needed, how to interpret it) with agent prompting guidance (how to facilitate the analysis conversationally).
+The skill walks a user through a sequence of **facts** — self-contained diagnostic analyses — organized under four **laws**. Each fact combines an analytical methodology (what to construct, what data is needed, how to interpret it) with agent prompting guidance (how to facilitate the analysis conversationally).
 
 ## How it runs
 
@@ -12,7 +12,7 @@ The skill walks a user through a sequence of **facts** — self-contained diagno
 
 ## Structure
 
-Each fact builds on the previous one and feeds into the next, forming a single diagnostic arc from cost position through market position to the customer.
+Each fact builds on the previous one and feeds into the next, forming a single diagnostic arc from cost position, through market position and the customer, to organisational execution.
 
 ```
 laws/
@@ -24,10 +24,14 @@ laws/
 │   ├── law2_fact4_roa_rms.md
 │   ├── law2_fact5_market_size_growth_share.md
 │   └── law2_fact6_capabilities_analysis.md
-└── law3/   Customer
-    ├── law3_fact7_customer_segments_snap.md
-    ├── law3_fact8_retention_nps.md
-    └── law3_fact9_profit_pool_analysis.md
+├── law3/   Customer
+│   ├── law3_fact7_customer_segments_snap.md
+│   ├── law3_fact8_retention_nps.md
+│   └── law3_fact9_profit_pool_analysis.md
+└── law4/   Organisational capability / execution
+    ├── law4_fact10_innovation_fulcrum.md
+    ├── law4_fact11_decision_making_org.md
+    └── law4_fact12_process_mapping.md
 SKILL.md       Orchestration spine (traversal, state, checkpoints)
 skill.json     Machine-readable traversal manifest
 templates/
@@ -47,8 +51,11 @@ templates/
 | 7 | Customer Segments & SNAP | 3 — Customer | Which segments are most attractive, and can you win them? |
 | 8 | Customer Retention & NPS | 3 — Customer | What proportion of customers are you retaining, and how does your NPS track? |
 | 9 | Profit-Pool Analysis | 3 — Customer | Where is profit concentrated across the value chain, and how durable is it? |
+| 10 | Innovation Fulcrum (Model T) | 4 — Execution | How complex are your offerings, what is that costing you, and where is your fulcrum? |
+| 11 | Decision-Making & Org Complexity | 4 — Execution | How complex are your decisions and structure, and what is the impact? |
+| 12 | Process Mapping | 4 — Execution | Where does complexity reside in your processes, and what is it costing you? |
 
-> **Note:** Law names are currently placeholders pending confirmation.
+> **Note:** Law names are currently placeholders pending confirmation. Fact 12 carries the full point-of-departure (POD) synthesis across all four laws.
 
 ## Fact file format
 
