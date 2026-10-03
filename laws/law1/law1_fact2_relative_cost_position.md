@@ -1,5 +1,5 @@
 # Fact 2: Relative Cost Position Analysis
-**Law:** Law 1 — [To be confirmed]
+**Law:** Law 1 — Costs and prices always decline
 **Position in Law:** Fact 2 of 3
 
 ---

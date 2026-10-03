@@ -1,5 +1,5 @@
 # Fact 12: Process Mapping
-**Law:** Law 4 — [To be confirmed]
+**Law:** Law 4 — Simplicity gets results
 **Position in Law:** Fact 3 of 3 — Final fact in the POD analysis
 
 ---

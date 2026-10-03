@@ -1,5 +1,5 @@
 # Fact 7: Customer Segments Analysis & Segment Needs and Performance (SNAP)
-**Law:** Law 3 — [To be confirmed]
+**Law:** Law 3 — Customers and profit pools don't stand still
 **Position in Law:** Fact 1 of 3
 
 **Structure note:** This fact comprises two complementary parts sharing a single diagnostic identity in the source material. Part 1 identifies which customer segments are most attractive. Part 2 (SNAP) assesses how well you meet each segment's needs relative to competitors and substitutes. Part 1 tells you *where* to compete; Part 2 tells you *whether you can win*.

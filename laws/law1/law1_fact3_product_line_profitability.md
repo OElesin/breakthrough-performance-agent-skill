@@ -1,5 +1,5 @@
 # Fact 3: Product-Line Profitability Analysis
-**Law:** Law 1 — [To be confirmed]
+**Law:** Law 1 — Costs and prices always decline
 **Position in Law:** Fact 3 of 3
 
 ---

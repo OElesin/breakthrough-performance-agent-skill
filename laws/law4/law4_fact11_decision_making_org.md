@@ -1,5 +1,5 @@
 # Fact 11: Decision-Making and Organisational Complexity Analysis
-**Law:** Law 4 — [To be confirmed]
+**Law:** Law 4 — Simplicity gets results
 **Position in Law:** Fact 2 of 3
 
 **Structure note:** Another compound fact with two complementary diagnostics. Part 1 (RAPID Analysis) examines the complexity of how decisions are made. Part 2 (Spans-and-Layers Analysis) examines the complexity of the organisational structure itself. Together they reveal whether your organisation is built for speed and accountability, or is slowed and blurred by structural overhead.

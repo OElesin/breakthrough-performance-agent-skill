@@ -1,5 +1,5 @@
 # Fact 4: Return on Assets / Relative Market Share
-**Law:** Law 2 — [To be confirmed]
+**Law:** Law 2 — Competitive position determines your options
 **Position in Law:** Fact 1 of 3
 
 ---

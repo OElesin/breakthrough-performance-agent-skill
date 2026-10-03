@@ -1,5 +1,5 @@
 # Fact 8: Customer Retention Analysis & Net Promoter Score (NPS)
-**Law:** Law 3 — [To be confirmed]
+**Law:** Law 3 — Customers and profit pools don't stand still
 **Position in Law:** Fact 2 of 3
 
 **Structure note:** Like Fact 7, this fact comprises two complementary parts under a single diagnostic identity. Part 1 establishes the retention baseline and diagnoses why customers leave. Part 2 (NPS) gives a forward-looking, competitively benchmarked metric for the loyalty that drives future retention and growth.

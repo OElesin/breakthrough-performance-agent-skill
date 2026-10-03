@@ -1,5 +1,5 @@
 # Fact 5: Market Size, Growth, and Share Analysis
-**Law:** Law 2 — [To be confirmed]
+**Law:** Law 2 — Competitive position determines your options
 **Position in Law:** Fact 2 of 3
 
 ---

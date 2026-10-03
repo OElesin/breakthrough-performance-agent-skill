@@ -1,5 +1,5 @@
 # Fact 1: Experience Curves
-**Law:** Law 1 — [To be named when Law names are confirmed]
+**Law:** Law 1 — Costs and prices always decline
 **Position in Law:** Fact 1 of 3
 
 ---

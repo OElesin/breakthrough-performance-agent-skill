@@ -1,5 +1,5 @@
 # Fact 6: Capabilities Analysis
-**Law:** Law 2 — [To be confirmed]
+**Law:** Law 2 — Competitive position determines your options
 **Position in Law:** Fact 3 of 3
 
 ---

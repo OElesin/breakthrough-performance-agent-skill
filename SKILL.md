@@ -25,25 +25,25 @@ Keep the user oriented: at any point they should know which law and fact they're
 Facts run in strict order. Each fact's finding feeds the next; do not skip ahead, because later facts assume earlier findings exist.
 
 ```
-Law 1 — Cost position
+Law 1 — Costs and prices always decline (cost position)
   Fact 1  Experience Curves
   Fact 2  Relative Cost Position
   Fact 3  Product-Line Profitability
   └─ CHECKPOINT: Law 1 closing synthesis
 
-Law 2 — Market position
+Law 2 — Competitive position determines your options (market position)
   Fact 4  ROA / Relative Market Share
   Fact 5  Market Size, Growth, and Share
   Fact 6  Capabilities Analysis
   └─ CHECKPOINT: Law 2 closing synthesis
 
-Law 3 — Customer
+Law 3 — Customers and profit pools don't stand still (customer)
   Fact 7  Customer Segments & SNAP   (two parts: 7.1 then 7.2)
   Fact 8  Customer Retention & NPS   (two parts: 8.1 then 8.2)
   Fact 9  Profit-Pool Analysis
   └─ CHECKPOINT: Law 3 closing synthesis
 
-Law 4 — Organisational capability / execution
+Law 4 — Simplicity gets results (organisational capability / execution)
   Fact 10  Innovation Fulcrum (Model T)
   Fact 11  Decision-Making & Org Complexity   (two parts: 11.1 RAPID then 11.2 Spans-and-Layers)
   Fact 12  Process Mapping
@@ -61,7 +61,7 @@ The default session runs the full arc, Fact 1 → Fact 12. A single law may be r
 
 ## State carried forward
 
-Maintain a running findings record for the session. After each fact, capture its finding and make the listed items available to the facts that consume them. This is what turns eight separate analyses into one connected diagnosis.
+Maintain a running findings record for the session. After each fact, capture its finding and make the listed items available to the facts that consume them. This is what turns twelve separate analyses into one connected diagnosis.
 
 | Fact | Produces (carry forward) | Consumes (from earlier facts) |
 |------|--------------------------|-------------------------------|

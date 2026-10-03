@@ -1,5 +1,5 @@
 # Fact 9: Profit-Pool Analysis
-**Law:** Law 3 — [To be confirmed]
+**Law:** Law 3 — Customers and profit pools don't stand still
 **Position in Law:** Fact 3 of 3
 
 ---

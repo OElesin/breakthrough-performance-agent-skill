@@ -13,8 +13,8 @@
   "laws": [
     {
       "id": "law1",
-      "name": "Cost position",
-      "name_status": "placeholder",
+      "name": "Costs and prices always decline",
+      "name_status": "confirmed",
       "closing_synthesis": {
         "source": "laws/law1/law1_fact3_product_line_profitability.md",
         "section": "Law 1 closing synthesis prompt"
@@ -51,8 +51,8 @@
     },
     {
       "id": "law2",
-      "name": "Market position",
-      "name_status": "placeholder",
+      "name": "Competitive position determines your options",
+      "name_status": "confirmed",
       "closing_synthesis": {
         "source": "laws/law2/law2_fact6_capabilities_analysis.md",
         "section": "Law 2 closing synthesis prompt"
@@ -89,8 +89,8 @@
     },
     {
       "id": "law3",
-      "name": "Customer",
-      "name_status": "placeholder",
+      "name": "Customers and profit pools don't stand still",
+      "name_status": "confirmed",
       "closing_synthesis": {
         "source": "laws/law3/law3_fact9_profit_pool_analysis.md",
         "section": "Law 3 closing synthesis prompt"
@@ -129,8 +129,8 @@
     },
     {
       "id": "law4",
-      "name": "Organisational capability / execution",
-      "name_status": "placeholder",
+      "name": "Simplicity gets results",
+      "name_status": "confirmed",
       "closing_synthesis": {
         "source": "laws/law4/law4_fact12_process_mapping.md",
         "section": "Law 4 synthesis prompt"
