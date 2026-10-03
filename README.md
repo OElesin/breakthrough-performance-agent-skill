@@ -78,6 +78,19 @@ Every fact follows a consistent template (see `templates/_TEMPLATE_fact.md`):
 - **Additional Tools** — supplementary frameworks
 - **Agent Prompting Guidance** — opening questions, probes, synthesis, and move-on signals
 
+## Running the skill
+
+A small runtime executes the manifest and fact files, following the control
+flow in `SKILL.md`. See [`runtime/README.md`](runtime/README.md) for detail.
+
+```bash
+# Human-in-the-loop (no dependencies) — walks all 12 facts and 4 checkpoints
+python -m runtime.drivers.manual_driver
+
+# LLM-facilitated via Amazon Bedrock (requires boto3 + AWS credentials)
+python -m runtime.drivers.bedrock_driver --region us-east-1
+```
+
 ## Source
 
 Framework adapted from *The Breakthrough Imperative: How the Best Managers Get Outstanding Results* by Mark Gottfredson and Steven Schaubert (HarperCollins, 2008). This repository contains original diagnostic and agent-facilitation material derived from that framework; it is not a reproduction of the book.
