@@ -1,0 +1,132 @@
+{
+  "name": "breakthrough-performance-diagnostic",
+  "version": "0.1.0",
+  "description": "A structured point-of-departure (POD) business diagnostic that guides a user through cost, market, and customer analysis, based on The Breakthrough Imperative framework.",
+  "spine": "SKILL.md",
+  "template": "templates/_TEMPLATE_fact.md",
+  "facilitation": {
+    "one_fact_at_a_time": true,
+    "accept_estimates": true,
+    "reflect_before_advancing": true,
+    "honour_move_on_signal": true
+  },
+  "laws": [
+    {
+      "id": "law1",
+      "name": "Cost position",
+      "name_status": "placeholder",
+      "closing_synthesis": {
+        "source": "laws/law1/law1_fact3_product_line_profitability.md",
+        "section": "Law 1 closing synthesis prompt"
+      },
+      "facts": [
+        {
+          "id": "fact1",
+          "n": 1,
+          "title": "Experience Curves",
+          "file": "laws/law1/law1_fact1_experience_curves.md",
+          "diagnostic_question": "How does your cost slope compare with competitors and industry price?",
+          "produces": ["relative_cost_slope", "cost_vs_price_trajectory"],
+          "consumes": []
+        },
+        {
+          "id": "fact2",
+          "n": 2,
+          "title": "Relative Cost Position",
+          "file": "laws/law1/law1_fact2_relative_cost_position.md",
+          "diagnostic_question": "What are your costs compared with competitors, element by element?",
+          "produces": ["cost_gaps_by_element", "achievable_vs_structural_gaps"],
+          "consumes": ["relative_cost_slope", "cost_vs_price_trajectory"]
+        },
+        {
+          "id": "fact3",
+          "n": 3,
+          "title": "Product-Line Profitability",
+          "file": "laws/law1/law1_fact3_product_line_profitability.md",
+          "diagnostic_question": "Which products are making money (or not), and why?",
+          "produces": ["per_product_profitability", "key_cost_drivers"],
+          "consumes": ["cost_gaps_by_element"]
+        }
+      ]
+    },
+    {
+      "id": "law2",
+      "name": "Market position",
+      "name_status": "placeholder",
+      "closing_synthesis": {
+        "source": "laws/law2/law2_fact6_capabilities_analysis.md",
+        "section": "Law 2 closing synthesis prompt"
+      },
+      "facts": [
+        {
+          "id": "fact4",
+          "n": 4,
+          "title": "Return on Assets / Relative Market Share",
+          "file": "laws/law2/law2_fact4_roa_rms.md",
+          "diagnostic_question": "Where do you and competitors fall on the ROA/RMS chart?",
+          "produces": ["market_position", "over_under_performance"],
+          "consumes": ["per_product_profitability", "cost_vs_price_trajectory"]
+        },
+        {
+          "id": "fact5",
+          "n": 5,
+          "title": "Market Size, Growth, and Share",
+          "file": "laws/law2/law2_fact5_market_size_growth_share.md",
+          "diagnostic_question": "How big is your market, what's growing, where are you gaining/losing share?",
+          "produces": ["market_size_growth", "share_gain_loss_by_segment"],
+          "consumes": ["market_position"]
+        },
+        {
+          "id": "fact6",
+          "n": 6,
+          "title": "Capabilities Analysis",
+          "file": "laws/law2/law2_fact6_capabilities_analysis.md",
+          "diagnostic_question": "Which capabilities create competitive advantage, and where are the gaps?",
+          "produces": ["differentiating_capabilities", "capability_gaps", "build_buy_outsource"],
+          "consumes": ["share_gain_loss_by_segment"]
+        }
+      ]
+    },
+    {
+      "id": "law3",
+      "name": "Customer",
+      "name_status": "placeholder",
+      "closing_synthesis": {
+        "source": null,
+        "section": "Pending Fact 9; use interim customer-picture synthesis after Fact 8"
+      },
+      "facts": [
+        {
+          "id": "fact7",
+          "n": 7,
+          "title": "Customer Segments & SNAP",
+          "file": "laws/law3/law3_fact7_customer_segments_snap.md",
+          "diagnostic_question": "Which segments are most attractive, and can you win them?",
+          "parts": ["7.1 Customer Segments Analysis", "7.2 SNAP Analysis"],
+          "produces": ["target_segments", "purchasing_criteria", "win_lose_vs_competitors"],
+          "consumes": ["market_position", "differentiating_capabilities"]
+        },
+        {
+          "id": "fact8",
+          "n": 8,
+          "title": "Customer Retention & NPS",
+          "file": "laws/law3/law3_fact8_retention_nps.md",
+          "diagnostic_question": "What proportion of customers are you retaining, and how does your NPS track?",
+          "parts": ["8.1 Customer Retention Analysis", "8.2 NPS Analysis"],
+          "produces": ["retention_rate", "defection_causes", "nps_vs_competitors"],
+          "consumes": ["target_segments"]
+        },
+        {
+          "id": "fact9",
+          "n": 9,
+          "title": "Profit-Pool Analysis",
+          "file": null,
+          "status": "planned",
+          "diagnostic_question": "Where is profit concentrated across the value chain, and how durable is it?",
+          "produces": ["profit_pool_map", "profit_durability"],
+          "consumes": ["nps_vs_competitors", "retention_rate"]
+        }
+      ]
+    }
+  ]
+}

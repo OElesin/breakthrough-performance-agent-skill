@@ -4,6 +4,12 @@ A structured knowledge base for an AI agent that guides users through a point-of
 
 The skill walks a user through a sequence of **facts** — self-contained diagnostic analyses — organized under three **laws**. Each fact combines an analytical methodology (what to construct, what data is needed, how to interpret it) with agent prompting guidance (how to facilitate the analysis conversationally).
 
+## How it runs
+
+- **[`SKILL.md`](SKILL.md)** is the orchestration spine: traversal order, when to advance, what state carries forward between facts, and the per-law synthesis checkpoints. Start here to understand how a session flows.
+- **[`skill.json`](skill.json)** is the machine-readable companion encoding the same traversal, produces/consumes dependencies, and checkpoints — for driving the session programmatically.
+- The files under `laws/` hold the *content* for each step; `SKILL.md` holds the *control flow* that strings them together.
+
 ## Structure
 
 Each fact builds on the previous one and feeds into the next, forming a single diagnostic arc from cost position through market position to the customer.
@@ -21,6 +27,8 @@ laws/
 └── law3/   Customer
     ├── law3_fact7_customer_segments_snap.md
     └── law3_fact8_retention_nps.md
+SKILL.md       Orchestration spine (traversal, state, checkpoints)
+skill.json     Machine-readable traversal manifest
 templates/
 └── _TEMPLATE_fact.md   Blank template for authoring new facts
 ```
