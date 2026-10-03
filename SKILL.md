@@ -40,7 +40,7 @@ Law 2 — Market position
 Law 3 — Customer
   Fact 7  Customer Segments & SNAP   (two parts: 7.1 then 7.2)
   Fact 8  Customer Retention & NPS   (two parts: 8.1 then 8.2)
-  Fact 9  Profit-Pool Analysis       (PLANNED — not yet authored)
+  Fact 9  Profit-Pool Analysis
   └─ CHECKPOINT: Law 3 closing synthesis
 ```
 
@@ -66,7 +66,7 @@ Maintain a running findings record for the session. After each fact, capture its
 | 6 Capabilities | Differentiating capabilities; gaps; build/buy/outsource | Fact 5 growth/share opportunities |
 | 7 Segments & SNAP | Target segments; purchasing criteria; win/lose vs. competitors | Fact 4 (position), Fact 6 (capability fit) |
 | 8 Retention & NPS | Retention rate; defection causes; NPS vs. competitors | Fact 7 target segments |
-| 9 Profit-Pool *(planned)* | Where profit concentrates; durability | Fact 8 loyalty data |
+| 9 Profit-Pool | Where profit concentrates; durability | Fact 8 loyalty data |
 
 When a later fact's synthesis contradicts an earlier finding, surface the tension explicitly rather than silently overwriting — reconciling those contradictions is often the most valuable output of the whole diagnostic.
 
@@ -78,7 +78,7 @@ At the end of each law, run the law-closing synthesis prompt verbatim from the f
 
 - **End of Law 1** — prompt in `laws/law1/law1_fact3_product_line_profitability.md` ("Law 1 closing synthesis prompt").
 - **End of Law 2** — prompt in `laws/law2/law2_fact6_capabilities_analysis.md` ("Law 2 closing synthesis prompt").
-- **End of Law 3** — to be added when Fact 9 is authored. Until then, close Law 3 after Fact 8 with an interim synthesis of the customer picture and note that profit-pool analysis is pending.
+- **End of Law 3** — prompt in `laws/law3/law3_fact9_profit_pool_analysis.md` ("Law 3 closing synthesis prompt").
 
 Each headline finding is carried into the next law's opening so the arc stays connected.
 
@@ -93,7 +93,7 @@ After the last checkpoint, produce a one-page POD summary that ties the three le
 - **Customer** (Law 3): which customers are worth winning and whether you can keep them.
 - **The through-line**: the single most important strategic implication that emerges when the three are read together.
 
-End with the explicit open items (any facts answered on estimates rather than data, and — currently — the pending Fact 9).
+End with the explicit open items (any facts answered on estimates rather than data).
 
 ---
 

@@ -92,8 +92,8 @@
       "name": "Customer",
       "name_status": "placeholder",
       "closing_synthesis": {
-        "source": null,
-        "section": "Pending Fact 9; use interim customer-picture synthesis after Fact 8"
+        "source": "laws/law3/law3_fact9_profit_pool_analysis.md",
+        "section": "Law 3 closing synthesis prompt"
       },
       "facts": [
         {
@@ -120,8 +120,7 @@
           "id": "fact9",
           "n": 9,
           "title": "Profit-Pool Analysis",
-          "file": null,
-          "status": "planned",
+          "file": "laws/law3/law3_fact9_profit_pool_analysis.md",
           "diagnostic_question": "Where is profit concentrated across the value chain, and how durable is it?",
           "produces": ["profit_pool_map", "profit_durability"],
           "consumes": ["nps_vs_competitors", "retention_rate"]

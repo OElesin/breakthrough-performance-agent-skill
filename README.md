@@ -26,7 +26,8 @@ laws/
 │   └── law2_fact6_capabilities_analysis.md
 └── law3/   Customer
     ├── law3_fact7_customer_segments_snap.md
-    └── law3_fact8_retention_nps.md
+    ├── law3_fact8_retention_nps.md
+    └── law3_fact9_profit_pool_analysis.md
 SKILL.md       Orchestration spine (traversal, state, checkpoints)
 skill.json     Machine-readable traversal manifest
 templates/
@@ -45,8 +46,9 @@ templates/
 | 6 | Capabilities Analysis | 2 — Market position | Which capabilities create competitive advantage, and where are the gaps? |
 | 7 | Customer Segments & SNAP | 3 — Customer | Which segments are most attractive, and can you win them? |
 | 8 | Customer Retention & NPS | 3 — Customer | What proportion of customers are you retaining, and how does your NPS track? |
+| 9 | Profit-Pool Analysis | 3 — Customer | Where is profit concentrated across the value chain, and how durable is it? |
 
-> **Note:** Fact 9 (Profit-Pool Analysis) is planned and referenced by the Law 3 facts but not yet written. Law names are currently placeholders pending confirmation.
+> **Note:** Law names are currently placeholders pending confirmation.
 
 ## Fact file format
 
